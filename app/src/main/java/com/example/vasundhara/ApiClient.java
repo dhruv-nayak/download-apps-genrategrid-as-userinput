@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
 
-    private static final String BASE_URL = "http://vasundharaapps.com/artwork_apps/api/AdvertiseNewApplications/";
+    private static final String BASE_URL = "api url";
     private static Retrofit retrofit = null;
 
     public static Retrofit getClient() {
